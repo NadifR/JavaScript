@@ -77,22 +77,22 @@ return avg;
   console.log('angka max ganjil : ', maxganjil);
   console.log('angka min ganjil : ',minganjil);
 
-//   total genap
+//   total genap (totalA)
 
 totalA = total(even);
 console.log(' nilai total genap : ',totalA);
 
-// total ganjil
+// total ganjil (totalB)
 totalB = total(odd);
 console.log(' nilai total ganjil : ',totalB);
 
 
-// rata-rata genap
+// rata-rata genap (rataA)
 
 rataA = rata(even);
 console.log('nilai rata2 genap : ',rataA);
 
-// rata-rata ganjil
+// rata-rata ganjil (rataB)
 rataB = rata(odd);
 console.log('nilai rata2 ganjil : ',rataB);
 
