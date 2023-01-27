@@ -79,22 +79,22 @@ return avg;
 
 //   total genap
 
-totA = total(even);
-console.log(' nilai total genap : ',totA);
+totalA = total(even);
+console.log(' nilai total genap : ',totalA);
 
 // total ganjil
-totB = total(odd);
-console.log(' nilai total ganjil : ',totB);
+totalB = total(odd);
+console.log(' nilai total ganjil : ',totalB);
 
 
 // rata-rata genap
 
-RATa = rata(even);
-console.log('nilai rata2 genap : ',RATa);
+rataA = rata(even);
+console.log('nilai rata2 genap : ',rataA);
 
 // rata-rata ganjil
-RATb = rata(odd);
-console.log('nilai rata2 ganjil : ',RATb);
+rataB = rata(odd);
+console.log('nilai rata2 ganjil : ',rataB);
 
 
                 // Perbandingan
@@ -121,10 +121,10 @@ else {
 
 }
 // total
-if (totA > totB) {
+if (totalA > totalB) {
     console.log('Total lebih besar array Genap');
 }
-else if (totA < totB) {
+else if (totalA < totalB) {
     console.log('Total lebih besar array Ganjil');
 }
 else {
@@ -133,10 +133,10 @@ else {
 }
 
 // Rata2
-if (RATa > RATb) {
+if (rataA > rataB) {
     console.log('Rata-rata lebih besar array Genap');
 }
-else if (RATa < RATb) {
+else if (rataA < rataB) {
     console.log('Rata=rata lebih besar array ganjil');
 }
 else{
