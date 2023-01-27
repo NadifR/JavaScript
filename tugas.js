@@ -1,18 +1,3 @@
-// var angka = [ 2, 5, 24, 57, 89, 100 ];
-// var terbesar = 2;
-
-// for( i = 0; i < angka.length; i++ ){
-//   if(angka[i] < terbesar ){
-//     terbesar = angka[i];
-//   }
-// }
-
-// document.getElementById("array").innerHTML = "&nbsp;" + angka;
-// document.getElementById("open").innerHTML = terbesar;
-
-// console.log('angka terbesar : ',terbesar);
-
-
 
 // index ganjil genap
 const randomArray = (length, max) => 
@@ -79,12 +64,6 @@ for(var i = 0; i < arr.length; i++) {
 var avg = total / arr.length;
 return avg;
 }
-
-
-
-
-
-
 
 //   genap
   maxgenap = arrayMax(even);
